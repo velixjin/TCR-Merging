@@ -1,0 +1,15 @@
+{
+  "base_model": "${TCR_CHECKPOINT_ROOT}/base",
+  "experts": {
+    "spatial": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/spatial", "cache_a": "${TCR_CACHE_ROOT}/demo_a/spatial"},
+    "object": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/object", "cache_a": "${TCR_CACHE_ROOT}/demo_a/object"},
+    "goal": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/goal", "cache_a": "${TCR_CACHE_ROOT}/demo_a/goal"},
+    "long": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/long", "cache_a": "${TCR_CACHE_ROOT}/demo_a/long"}
+  },
+  "output": "${TCR_OUTPUT_ROOT}/regmeanpp",
+  "device": "cuda",
+  "passes": 1,
+  "variant": "demo",
+  "rows_per_call": 16,
+  "strict_paper_budget": false
+}

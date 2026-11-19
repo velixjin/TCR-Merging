@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "bank_id": "procedural-clean-v1",
+  "canonical_benchmark_bank": false,
+  "prospective_policy_independent_generation": true,
+  "suite_order": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ],
+  "state_generation": {
+    "workers": 4,
+    "worker_limit": 8,
+    "multiprocessing_start_method": "spawn",
+    "environment_lifetime": {
+      "capture": "fresh_control_env_per_state",
+      "same_seed_replay": "separate_fresh_control_env_per_checked_state",
+      "save_restore_noop": "capture_control_env_before_close"
+    },
+    "seed_base": 275000000,
+    "seed_formula": "275000000 + suite_index*100000 + task_id*1000 + state_index",
+    "suite_stride": 100000,
+    "task_stride": 1000,
+    "state_indices": {
+      "repeat-01": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "repeat-02": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "repeat-03": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+      "reserve": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+    },
+    "reserve_selection": "smallest_unused_state_index",
+    "reserve_trigger": "predeclared_invalid_state_or_infrastructure_receipt_only",
+    "forbid_policy_outcome_replacement": true
+  },
+  "evaluation": {
+    "repeat-01": {
+      "seed": 274001
+    },
+    "repeat-02": {
+      "seed": 274002
+    },
+    "repeat-03": {
+      "seed": 274003
+    }
+  },
+  "control_env": {
+    "use_camera_obs": false,
+    "has_renderer": false,
+    "has_offscreen_renderer": false,
+    "gpu_required": false
+  },
+  "verification": {
+    "same_seed_regeneration": "all",
+    "save_restore_noop": "all",
+    "noop_steps": 10,
+    "noop_action": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0]
+  }
+}

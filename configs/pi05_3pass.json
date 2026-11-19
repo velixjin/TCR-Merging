@@ -1,0 +1,19 @@
+{
+  "base_model": "${TCR_CHECKPOINT_ROOT}/base",
+  "experts": {
+    "spatial": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/spatial", "cache_a": "${TCR_CACHE_ROOT}/a/spatial", "cache_b": "${TCR_CACHE_ROOT}/b/spatial", "cache_c": "${TCR_CACHE_ROOT}/c/spatial"},
+    "object": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/object", "cache_a": "${TCR_CACHE_ROOT}/a/object", "cache_b": "${TCR_CACHE_ROOT}/b/object", "cache_c": "${TCR_CACHE_ROOT}/c/object"},
+    "goal": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/goal", "cache_a": "${TCR_CACHE_ROOT}/a/goal", "cache_b": "${TCR_CACHE_ROOT}/b/goal", "cache_c": "${TCR_CACHE_ROOT}/c/goal"},
+    "long": {"checkpoint": "${TCR_CHECKPOINT_ROOT}/long", "cache_a": "${TCR_CACHE_ROOT}/a/long", "cache_b": "${TCR_CACHE_ROOT}/b/long", "cache_c": "${TCR_CACHE_ROOT}/c/long"}
+  },
+  "output": "${TCR_OUTPUT_ROOT}/main_3pass",
+  "device": "cuda",
+  "passes": 3,
+  "variant": "full",
+  "ridge_ratio": 0.05,
+  "max_correction_ratio": 3.0,
+  "rows_per_call": 10,
+  "rows_per_request": 16,
+  "first_pass_weighting": "prior",
+  "strict_paper_budget": true
+}

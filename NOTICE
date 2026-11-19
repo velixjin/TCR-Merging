@@ -1,0 +1,8 @@
+TCR: Trajectory-Calibrated Merging of Embodied Policies
+Copyright 2026 TCR Authors
+
+This product includes software developed as part of LeRobot
+(https://github.com/huggingface/lerobot), licensed under the Apache License 2.0.
+src/pi05/replay.py re-implements the forward computation of LeRobot's pi0.5 /
+PaliGemma layers, which are themselves a port of Physical Intelligence's OpenPI
+(https://github.com/Physical-Intelligence/openpi), licensed under the Apache License 2.0.
