@@ -1,0 +1,242 @@
+[
+{
+"s": "libero_10",
+"n": 1,
+"repeat": 2,
+"task_id": 2,
+"episode": 2,
+"task": "turn on the stove and put the moka pot on it",
+"ok": {
+"tcr": true,
+"featcal": true,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_10_1/tcr.mp4",
+"featcal": "static/video/cmp/libero_10_1/featcal.mp4",
+"soup": "static/video/cmp/libero_10_1/soup.mp4",
+"experts": "static/video/cmp/libero_10_1/experts.mp4"
+}
+},
+{
+"s": "libero_10",
+"n": 2,
+"repeat": 1,
+"task_id": 0,
+"episode": 8,
+"task": "put both the alphabet soup and the tomato sauce in the basket",
+"ok": {
+"tcr": true,
+"featcal": true,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_10_2/tcr.mp4",
+"featcal": "static/video/cmp/libero_10_2/featcal.mp4",
+"soup": "static/video/cmp/libero_10_2/soup.mp4",
+"experts": "static/video/cmp/libero_10_2/experts.mp4"
+}
+},
+{
+"s": "libero_10",
+"n": 3,
+"repeat": 2,
+"task_id": 6,
+"episode": 5,
+"task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+"ok": {
+"tcr": true,
+"featcal": false,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_10_3/tcr.mp4",
+"featcal": "static/video/cmp/libero_10_3/featcal.mp4",
+"soup": "static/video/cmp/libero_10_3/soup.mp4",
+"experts": "static/video/cmp/libero_10_3/experts.mp4"
+}
+},
+{
+"s": "libero_goal",
+"n": 1,
+"repeat": 1,
+"task_id": 5,
+"episode": 8,
+"task": "push the plate to the front of the stove",
+"ok": {
+"tcr": true,
+"featcal": false,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_goal_1/tcr.mp4",
+"featcal": "static/video/cmp/libero_goal_1/featcal.mp4",
+"soup": "static/video/cmp/libero_goal_1/soup.mp4",
+"experts": "static/video/cmp/libero_goal_1/experts.mp4"
+}
+},
+{
+"s": "libero_goal",
+"n": 2,
+"repeat": 1,
+"task_id": 9,
+"episode": 4,
+"task": "put the wine bottle on the rack",
+"ok": {
+"tcr": true,
+"featcal": false,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_goal_2/tcr.mp4",
+"featcal": "static/video/cmp/libero_goal_2/featcal.mp4",
+"soup": "static/video/cmp/libero_goal_2/soup.mp4",
+"experts": "static/video/cmp/libero_goal_2/experts.mp4"
+}
+},
+{
+"s": "libero_goal",
+"n": 3,
+"repeat": 3,
+"task_id": 0,
+"episode": 4,
+"task": "open the middle drawer of the cabinet",
+"ok": {
+"tcr": true,
+"featcal": true,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_goal_3/tcr.mp4",
+"featcal": "static/video/cmp/libero_goal_3/featcal.mp4",
+"soup": "static/video/cmp/libero_goal_3/soup.mp4",
+"experts": "static/video/cmp/libero_goal_3/experts.mp4"
+}
+},
+{
+"s": "libero_object",
+"n": 1,
+"repeat": 1,
+"task_id": 8,
+"episode": 5,
+"task": "pick up the chocolate pudding and place it in the basket",
+"ok": {
+"tcr": true,
+"featcal": true,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_object_1/tcr.mp4",
+"featcal": "static/video/cmp/libero_object_1/featcal.mp4",
+"soup": "static/video/cmp/libero_object_1/soup.mp4",
+"experts": "static/video/cmp/libero_object_1/experts.mp4"
+}
+},
+{
+"s": "libero_object",
+"n": 2,
+"repeat": 1,
+"task_id": 7,
+"episode": 4,
+"task": "pick up the milk and place it in the basket",
+"ok": {
+"tcr": true,
+"featcal": true,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_object_2/tcr.mp4",
+"featcal": "static/video/cmp/libero_object_2/featcal.mp4",
+"soup": "static/video/cmp/libero_object_2/soup.mp4",
+"experts": "static/video/cmp/libero_object_2/experts.mp4"
+}
+},
+{
+"s": "libero_object",
+"n": 3,
+"repeat": 1,
+"task_id": 0,
+"episode": 7,
+"task": "pick up the alphabet soup and place it in the basket",
+"ok": {
+"tcr": true,
+"featcal": false,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_object_3/tcr.mp4",
+"featcal": "static/video/cmp/libero_object_3/featcal.mp4",
+"soup": "static/video/cmp/libero_object_3/soup.mp4",
+"experts": "static/video/cmp/libero_object_3/experts.mp4"
+}
+},
+{
+"s": "libero_spatial",
+"n": 1,
+"repeat": 3,
+"task_id": 9,
+"episode": 5,
+"task": "pick up the black bowl on the wooden cabinet and place it on the plate",
+"ok": {
+"tcr": true,
+"featcal": false,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_spatial_1/tcr.mp4",
+"featcal": "static/video/cmp/libero_spatial_1/featcal.mp4",
+"soup": "static/video/cmp/libero_spatial_1/soup.mp4",
+"experts": "static/video/cmp/libero_spatial_1/experts.mp4"
+}
+},
+{
+"s": "libero_spatial",
+"n": 2,
+"repeat": 1,
+"task_id": 4,
+"episode": 8,
+"task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+"ok": {
+"tcr": true,
+"featcal": true,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_spatial_2/tcr.mp4",
+"featcal": "static/video/cmp/libero_spatial_2/featcal.mp4",
+"soup": "static/video/cmp/libero_spatial_2/soup.mp4",
+"experts": "static/video/cmp/libero_spatial_2/experts.mp4"
+}
+},
+{
+"s": "libero_spatial",
+"n": 3,
+"repeat": 3,
+"task_id": 8,
+"episode": 0,
+"task": "pick up the black bowl next to the plate and place it on the plate",
+"ok": {
+"tcr": true,
+"featcal": true,
+"soup": false,
+"experts": true
+},
+"src": {
+"tcr": "static/video/cmp/libero_spatial_3/tcr.mp4",
+"featcal": "static/video/cmp/libero_spatial_3/featcal.mp4",
+"soup": "static/video/cmp/libero_spatial_3/soup.mp4",
+"experts": "static/video/cmp/libero_spatial_3/experts.mp4"
+}
+}
+]
