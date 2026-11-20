@@ -166,14 +166,14 @@ tests/               # numerical and workflow tests (CPU + small GPU)
 ## Citation
 
 ```bibtex
-@misc{chen2026trajectorycalibratedmerging,
-  title         = {Trajectory-Calibrated Merging of Embodied Policies},
-  author        = {Wenshuo Chen and Honglei Jin and Le Yang and Jianfei Song and Shaofeng Liang and Lei Wang and Junze Zhu and Kailong Wang and Zhengxi Jin and Haozhe Jia and Honglin Chu and Songning Lai and Xiucheng Wang and Yutao Yue},
-  year          = {2026},
-  eprint        = {2611.25575},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO},
-  url           = {http://arxiv.org/abs/2611.25575}
+@misc{chen2026trajectorycalibratedmergingembodiedpolicies,
+      title={Trajectory-Calibrated Merging of Embodied Policies},
+      author={Wenshuo Chen and Honglei Jin and Le Yang and Jianfei Song and Shaofeng Liang and Lei Wang and Junze Zhu and Kailong Wang and Zhengxi Jin and Haozhe Jia and Honglin Chu and Songning Lai and Xiucheng Wang and Yutao Yue},
+      year={2026},
+      eprint={2611.25575},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2611.25575},
 }
 ```
 
