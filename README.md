@@ -4,7 +4,7 @@
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB.svg)](https://www.python.org/)
 [![PyTorch 2.7.1](https://img.shields.io/badge/PyTorch-2.7.1-EE4C2C.svg)](https://pytorch.org/)
 
-**[Project Page](https://velixjin.github.io/TCR-Merging/)**
+**[Paper (arXiv)](https://arxiv.org/abs/2611.25575) · [Project Page](https://velixjin.github.io/TCR-Merging/)**
 
 Wenshuo Chen<sup>1\*</sup>, Honglei Jin<sup>1\*†</sup>, Le Yang<sup>2\*</sup>, Jianfei Song<sup>3</sup>, Shaofeng Liang<sup>1</sup>, Lei Wang<sup>4</sup>, Junze Zhu<sup>1</sup>, Kailong Wang<sup>1</sup>, Zhengxi Jin<sup>5</sup>, Haozhe Jia<sup>5</sup>, Honglin Chu<sup>3</sup>, Songning Lai<sup>1</sup>, Xiucheng Wang<sup>6</sup>, Yutao Yue<sup>1,7✉</sup>
 
